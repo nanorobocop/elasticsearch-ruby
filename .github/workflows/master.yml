@@ -24,4 +24,4 @@ jobs:
         ruby -v
         rake bundle:clean
         rake bundle:install
-        rake test:client
+        rake test:unit
